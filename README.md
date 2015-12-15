@@ -2,7 +2,8 @@
 
 #### Install from github repo
 ```
-// composer.json
+// put in composer.json
+
 {
   "repositories": [
     {
@@ -18,6 +19,8 @@
 
 #### Install from packagist.org
 ```
+// put in composer.json
+
 {
     "require": {
         "clozed2u/hello-composer": "^1.0"
@@ -34,8 +37,8 @@ composer require clozed2u/hello-composer=1.0.0
 ```
 <?php
 
- require_once __DIR__ . "/vendor/autoload.php";
+require_once __DIR__ . "/vendor/autoload.php";
 
- $hum = new \Hello\Hello();
- print $hum::sayAnything("X JAPAN ROCK!!!");
- ```
+$hum = new \Hello\Hello();
+print $hum->sayAnything("X JAPAN ROCK!!!");
+```
