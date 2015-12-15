@@ -1,0 +1,17 @@
+{
+    "name": "clozed2u/hello-composer",
+    "description": "Sample composer package",
+    "license": "MIT",
+    "keywords": ["hello"],
+    "authors": [
+        {
+            "name": "Lattapon Yodsuwan",
+            "email": "i@clozed2u.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {"phpunit/phpunit": "*"},
+    "autoload": {
+      "psr-4": {"Hello\\": "src/"}
+    }
+}
