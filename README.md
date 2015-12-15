@@ -2,8 +2,6 @@
 
 #### Install from github repo
 ```
-// put in composer.json
-
 {
   "repositories": [
     {
@@ -19,8 +17,6 @@
 
 #### Install from packagist.org
 ```
-// put in composer.json
-
 {
     "require": {
         "clozed2u/hello-composer": "^1.0"
@@ -28,7 +24,7 @@
 }
 ```
 
-#### Or one line with composer command
+#### Or one line command with composer require
 ```
 composer require clozed2u/hello-composer=1.0.0
 ```
