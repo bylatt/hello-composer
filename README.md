@@ -1,6 +1,8 @@
 ## Sample composer package
 ![Circle CI](https://circleci.com/gh/clozed2u/hello-composer.png "Circle CI")
 
+### [On packagist.org](https://packagist.org/packages/clozed2u/hello-composer "hello-composer on  packagist.org")
+
 #### Install from github repo
 ```
 {
