@@ -1,4 +1,5 @@
 ## Sample composer package
+![Circle CI](https://circleci.com/gh/clozed2u/hello-composer.png "Circle CI")
 
 #### Install from github repo
 ```
