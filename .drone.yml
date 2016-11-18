@@ -1,0 +1,5 @@
+build:
+  image: composer/composer:1.2
+  commands:
+    - composer install
+    - ./vendor/bin/phpunit
